@@ -1,0 +1,44 @@
+.intro{
+    background: rgb(118, 3, 172);
+    height: 147px;
+    
+
+}
+.color{
+    width: 100px;
+    height: 100px;
+    background: cadetblue;
+    
+}
+.intro-text{
+    font-size: 40px;
+    color: #fff;
+    margin: 0;
+}
+.intro-text span{
+    color: aqua;
+}
+
+.element{
+    background: rgb(10, 184, 53);
+    width: 300px;
+}
+.tabl-text{
+    font-size: 15px;
+    margin: 0;
+}
+.element_inner{
+    display: flex;
+    justify-content: flex-start;
+}
+.text_caed{
+    color: #fff;
+    background: rgb(2, 30, 158);
+    font-size: 12px;
+  margin: 1px;
+
+  
+}
+.text_caed-1{
+    margin-left: 0;
+}
