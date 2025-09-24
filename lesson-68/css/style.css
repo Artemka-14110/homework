@@ -1,0 +1,197 @@
+body {
+    background: #262628;
+    color: aquamarine;
+}
+.position{
+    position: relative;
+}
+.krug{
+    background-color: #720000;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    position: fixed;
+    bottom: 155px;
+    left: 53%;
+    z-index: 1;
+}
+.priamougol{
+    background-color: azure;
+    border-radius: 10px;
+    height: 110px;
+    width: 50%;
+    position: fixed;
+    bottom: 0;
+    left: 48.7%;
+    margin-bottom: 100px;
+    
+    
+}
+.transform{
+    height: 900px;
+    width: 900px;
+    background-color: cadetblue;
+    margin: 0 auto;
+    margin-top: 150px;
+    position: relative;
+}
+
+.siniikub{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    position: absolute;
+    right: 100px;
+    top: 101px;
+    transform: scale(2);
+
+}
+.zelenyikub{
+     width: 200px;
+    height: 200px;
+    background-color: darkgreen;
+    position: absolute;
+    left: 17%;
+    top: 15%;
+    transform: rotate(135deg);
+
+}
+.krasnyikub{
+    width: 200px;
+    height: 200px;
+    background-color: #720000;
+    position: absolute;
+    bottom: 0;
+    transform: translate(200%);
+}
+.psevdo{
+    text-align: center;
+    margin-top: 250px;
+}
+.title{
+    font-size: 120px;
+    position: relative;
+}
+.title::before{
+    content: '';
+    position: absolute;
+    height: 120px;
+    width: 120px;
+    background-color: #cb0018;
+    border-radius: 50%;
+    border: 7px solid #0000ec;
+    transform: translate(-150px);
+
+}
+.title::after{
+    content: '';
+    position: absolute;
+    height: 120px;
+    width: 120px;
+    background-color: #1b00cb;
+    border-radius: 50%;
+    border: 7px solid #ec002b;
+    transform: translate(27px,8px);
+
+}
+
+.transition{
+    margin-top: 450px;
+    
+}
+
+.case{
+    width: 250px;
+    height: 250px;
+    background-color: blueviolet;
+    margin: 0 auto;
+    position: relative;
+}
+
+
+.case::after{
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    background-color: transparent;
+    left: -180px;
+    top: -106px;
+}
+.case:hover::after{
+    width: 600px;
+    background-color: aliceblue;
+    transition-timing-function: ease-in;
+    transition-duration: .9s;
+}
+.case::before{
+    content: 'Успех!!!';
+    position: absolute;
+    text-transform: uppercase;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: transparent;
+    
+}
+.case:hover::before{
+   color: #e3d50f;
+   transition-delay: 1s;
+}
+
+
+.animation{
+    margin-top: 200px;
+    
+}
+
+
+.container{
+    height: 250px;
+    width: 1980px;
+    margin: 0 auto;
+    
+    background-color: #e3d50f;
+    position: relative;
+}
+
+.animationkub{
+    height: 250px;
+    width: 250px;
+    background-color: #0000ec;
+   
+    position: absolute;
+    left: 0;
+     /* animation: move-block 1s .3s infinite alternate; */
+      animation-name:move-block ;
+     animation-duration: 2s;
+     animation-iteration-count: infinite;
+      animation-direction: alternate; 
+       /* animation: move-block 2s ease-in-out infinite alternate; */
+}
+
+@keyframes move-block{
+    
+    0%{
+        left: 0px;
+    }
+    25%{
+        border-radius: 50%;
+    }
+    50%{
+        background-color: #cb0018;
+        border-radius: 0;
+    }
+    75%{
+        border-radius: 50%;
+        background-color: #0000ec;
+    }
+
+
+
+
+
+    100%{
+        left: calc(100% - 250px);
+    }
+}
