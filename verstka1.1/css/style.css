@@ -1013,6 +1013,7 @@ color: #1F1711;
     }
         .accordion-list__control-title {
         font-size: 25px;
+        text-align: left;
     }
     .accordion__content{
         display: block;
