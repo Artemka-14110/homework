@@ -565,7 +565,7 @@ color: #1F1711;
     gap: 15px;
 }
 .accordion-list__control-title {
-    font-family: Gabriola;
+    font-family: "Gabriola";
    font-size: 42px;
 
    line-height: 0.9;
