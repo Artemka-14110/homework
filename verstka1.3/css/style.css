@@ -832,8 +832,7 @@ color: #1F1711;
 .testimonials__title {
     margin-bottom: 20px;
 }
-.title {
-}
+
 
 .testimonials__nav{
     display: flex;
@@ -972,6 +971,139 @@ color: #1F1711;
 
 
 
+/* section form */
+
+
+.contact {
+    padding: 140px 0;
+    background: url("../img/decor/baground-form.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 100%;
+}
+
+.contact__inner {
+    display: flex;
+    position: relative;
+    align-items: end;
+    gap: 84px;
+}
+.contact__img img {
+    width: 100%;
+    filter: drop-shadow(0px 4px 30px rgba(198, 176, 161, 0.3 ));
+}
+
+.contact__inner::before{
+    content: url("../img/decor/iagodi-left.png");
+    position: absolute;
+    top: -4%;
+    left: 0;
+    
+}
+
+.contact__inner::after{
+    content: url("../img/decor/iagodi-right.png");
+    position: absolute;
+    top: 4%;
+    right: 0;
+    
+}
+
+.contact__body {
+    max-width: 420px;
+}
+.contact__title {
+    margin-bottom: 20px;
+}
+
+.contact__text {
+    margin-bottom: 40px;
+}
+
+.contact__lable {
+    margin-bottom: 10px;
+}
+
+.contact__check-lable {
+    display: flex;
+    gap: 5px;
+    max-width: 288px;
+    font-size: 13px;
+    margin-bottom: 20px;
+    align-items: start;
+}
+
+.contact__check-lable a{
+    text-decoration: underline;
+    transition: all .4s;
+
+}
+
+
+.contact__check-lable a:hover{
+    color: var(--accent-color);
+}
+.contact__checkbox {
+    appearance: none;
+    width: 16px;
+    height: 16px;
+    border: 2px solid #ac907a;
+    transition: all .4s;
+    border-radius: 4px;
+    flex-shrink: 0;
+    cursor: pointer;
+    position: relative;
+
+}
+
+.contact__checkbox::before{
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: url("../img/icons/checkbox.svg") 50% 50% no-repeat;
+    opacity: 0;
+     transition: all .4s;
+}
+
+.contact__checkbox:hover{
+    border: 2px solid var(--accent-color);
+}
+.contact__checkbox:checked{
+    background-color: var(--accent-color);
+    border: 2px solid var(--accent-color);
+    
+}
+.contact__checkbox:checked::before{
+    opacity: 1;
+}
+
+.contact__input {
+    display: block;
+    width: 100%;
+    border: 1px solid #ac907a;
+    border-radius: 100px;
+    padding: 19px 41px 19px 28px;
+    background: transparent;
+    font-size: 16px;
+
+    transition: all .4s;
+    margin-bottom: 20px;
+}
+.contact__input::placeholder{
+    color: #ac907a;
+    transition: all .4s;
+}
+.contact__input:hover{
+    border-color: var(--accent-color);
+   
+}
+.contact__input:hover::placeholder{
+     color: var(--accent-color);
+}
+
+
+
+
 /* footer */
 
 .footer{
@@ -1099,6 +1231,10 @@ color: #1F1711;
     .program__title{
         text-align: center;
     }
+    .contact__inner::after{
+        top: -20%;
+
+    }
 }
 @media (max-width: 1100px){
     .about__img{
@@ -1135,6 +1271,10 @@ color: #1F1711;
    }
    .main__program {
     padding-bottom: 60px;
+   }
+   .contact__inner{
+    align-items: center;
+    gap: 30px;
    }
 }
 
@@ -1188,7 +1328,13 @@ color: #1F1711;
      .gallary__info{
         max-width: none;
      }
-     
+
+     .contact__img{
+        display: none;
+     }
+     .contact__inner{
+        justify-content: center;
+     }
 
      
 }
@@ -1289,6 +1435,10 @@ color: #1F1711;
    .foto__gallary{
     padding-bottom: 60px;
    }
+
+   .contact__inner::before{
+    display: none;
+   }
    
 
  
@@ -1375,6 +1525,17 @@ color: #1F1711;
 
      .testimonials__title{
         font-size: 12vw;
+     }
+
+     .contact__inner{
+        text-align: center;
+     }
+
+     .contact__title{
+        font-size: 12vw;
+     }
+     .contact{
+        padding: 60px 0;
      }
 
        

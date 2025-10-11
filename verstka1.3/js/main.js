@@ -236,9 +236,15 @@ accordionLists.forEach(el => {
 
   // And if we need scrollbar
 
+
+  // маска для телефона
+
+  
+
 });
 
-
-
+const tellInputs = document.querySelector('input[type="tel"]')
+const im = new Inputmask ('+7 (999) 999-99-99')
+im.mask(tellInputs)
 })()
 
