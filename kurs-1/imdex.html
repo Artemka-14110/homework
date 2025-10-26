@@ -1,0 +1,920 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/fonts.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="container">
+                <div class="header__inner">
+
+
+                    <div class="header__logo">
+                        <button type="button" class="menu__btn">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </button>
+                        <a href="" class="header__logo-link"><img src="./img/header/logo.png" alt=""
+                                class="header__logo-img"></a>
+                        <div class="header__logo-lang">
+                            <button class="header__logo-lang-button"><img class="header__logo-lang-button-img"
+                                    src="./img/header/russia.svg" alt="">RU</button>
+                            <ul class="header__logo-lang-list">
+                                <li class="header__logo-lang-item">
+
+                                    <a href="" class="header__logo-lang-link"><img src="./img/header/russia.svg" alt=""
+                                            class="header__logo-lang-button-img">
+                                        RU
+                                    </a>
+                                </li>
+                                <li class="header__logo-lang-item">
+
+                                    <a href="" class="header__logo-lang-link"> <img src="./img/header/russia.svg" alt=""
+                                            class="header__logo-lang-button-img">
+                                        RU
+                                    </a>
+                                </li>
+                                <li class="header__logo-lang-item">
+
+                                    <a href="" class="header__logo-lang-link"><img src="./img/header/russia.svg" alt=""
+                                            class="header__logo-lang-button-img">
+                                        RU
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <nav class="header__nav">
+
+                            <ul class="header__list">
+                                <li class="header__item"><a href="" class="header__link">
+                                        Бонус
+                                    </a>
+                                </li>
+                                <li class="header__item"><a href="" class="header__link">
+                                        Реферальная
+                                    </a>
+                                </li>
+                                <li class="header__item"><a href="" class="header__link">
+                                        Контакты
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+
+
+
+                    <div class="header__logIn">
+                        <a href="" class="button_two-header button_two">Войти</a>
+                        <a href="" class="button button-header-top ">Открыть счёт</a>
+                    </div>
+                </div>
+
+                <section class="header__gift">
+                    <div class="header__gift-inner">
+                        <div class="header__gift-main">
+                            <a href="#" class="header__gift-link">
+                                <img src="./img/header__gift/gift.png" alt="" class="header__gift-img">
+                            </a>
+                            <div class="header__gift-item">
+                                <h2 class="header__gift-title">
+                                    Станьте миллионером с Leader Classic
+                                </h2>
+                                <p class="header__gift-text">
+                                    Откройте счет, инвестируйте в фонды Leader Classic и получите шанс выиграть один из
+                                    100 000 000 ₽
+                                </p>
+                            </div>
+                        </div>
+                        <div id="countdown" class="timer">
+                            <span id="days">00</span>д :
+                            <span id="hours">00</span>ч :
+                            <span id="minutes">00</span>м :
+                            <span id="seconds">00</span>с
+                        </div>
+
+
+
+                    </div>
+                </section>
+
+                <section class="header__action">
+                    <div class="header__action-inner">
+                        <h1 class="header__action-title">ТОП-5 акций <br>с доходностью до 10-30% уже в 2022 году</h1>
+                        <ul class="header__action-list">
+                            <li class="header__action-item">
+                                Открытие брокерского счета за 5 минут без визита в офис
+                            </li>
+                            <li class="header__action-item">
+                                Доступ к ценным бумагам с любого устройства
+                            </li>
+                            <li class="header__action-item">
+                                Поддержка в чате 24/7
+                            </li>
+
+
+                        </ul>
+                        <div class="header__action-buttons">
+                            <a href="#" class="header__action-batton button">Скачать ТОП-5 акций</a>
+                            <a href="#" class="button_two">Открыть счёт</a>
+
+                        </div>
+                        <div class="header__action-investors">
+                            <img src="./img/header__invest/foto1.png" alt=""
+                                class="header__action-people header__action-people-1">
+                            <img src="./img/header__invest/foto2.png" alt=""
+                                class="header__action-people header__action-people-2">
+                            <img src="./img/header__invest/foto3.png" alt=""
+                                class="header__action-people header__action-people-3">
+                            <p class="header__action-invest-text">Сейчас инвестируют <br>100 000+ пользователей</p>
+                        </div>
+                    </div>
+                </section>
+
+            </div>
+            <div class="phonehand"><img src="./img/header__invest/phonehand.png" alt=""></div>
+        </header>
+        <main class="main">
+            <section class="company-invest">
+                <div class="container">
+                    <div class="company-invest__inner">
+                        <h2 class="company-invest__title">Ваши деньги <br> способны на большее</h2>
+                        <p class="company-invest__text">Сколько бы вы заработали, инвестируй <span>100 000 ₽</span> год
+                            назад?</p>
+                        <div class="swiper">
+                            <div class="swiper-wrapper ">
+                                <div class="swiper-slide">
+                                    <div class="company-invest__img">
+                                        <img src="./img/company__invest/tesla.png" alt="">
+                                    </div>
+                                    <p class="company-invest__procent">+4.11%</p>
+                                    <p class="company-invest__subprocent">+72.000₽</p>
+                                </div>
+
+                                <div class="swiper-slide swiper-slide-top">
+                                    <div class="company-invest__img">
+                                        <img src="./img/company__invest/amazon.png" alt="">
+                                    </div>
+                                    <p class="company-invest__procent">+26.36%</p>
+                                    <p class="company-invest__subprocent">+72.000₽</p>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="company-invest__img">
+                                        <img src="./img/company__invest/apple.png" alt="">
+                                    </div>
+                                    <p class="company-invest__procent">+17.19%</p>
+                                    <p class="company-invest__subprocent">+72.000₽</p>
+                                </div>
+                                <div class="swiper-slide swiper-slide-top">
+                                    <div class="company-invest__img">
+                                        <img src="./img/company__invest/yandex.png" alt="">
+                                    </div>
+                                    <p class="company-invest__procent">+31.32%</p>
+                                    <p class="company-invest__subprocent">+72.000₽</p>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="company-invest__img">
+                                        <img src="./img/company__invest/facebook.png" alt="">
+                                    </div>
+                                    <p class="company-invest__procent">+38.99%</p>
+                                    <p class="company-invest__subprocent">+72.000₽</p>
+                                </div>
+                                <div class="swiper-slide swiper-slide-top">
+                                    <div class="company-invest__img">
+                                        <img src="./img/company__invest/microsoft.png" alt="">
+                                    </div>
+                                    <p class="company-invest__procent">+83.97%</p>
+                                    <p class="company-invest__subprocent">+72.000₽</p>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="company-invest__img">
+                                        <img src="./img/company__invest/apple.png" alt="">
+                                    </div>
+                                    <p class="company-invest__procent">+17.19%</p>
+                                    <p class="company-invest__subprocent">+72.000₽</p>
+                                </div>
+                                <div class="swiper-slide swiper-slide-top">
+                                    <div class="company-invest__img">
+                                        <img src="./img/company__invest/yandex.png" alt="">
+                                    </div>
+                                    <p class="company-invest__procent">+31.32%</p>
+                                    <p class="company-invest__subprocent">+72.000₽</p>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="company-invest__img">
+                                        <img src="./img/company__invest/facebook.png" alt="">
+                                    </div>
+                                    <p class="company-invest__procent">+38.99%</p>
+                                    <p class="company-invest__subprocent">+72.000₽</p>
+                                </div>
+                                <div class="swiper-slide swiper-slide-top">
+                                    <div class="company-invest__img">
+                                        <img src="./img/company__invest/microsoft.png" alt="">
+                                    </div>
+                                    <p class="company-invest__procent">+83.97%</p>
+                                    <p class="company-invest__subprocent">+72.000₽</p>
+                                </div>
+
+
+                            </div>
+
+
+
+
+                        </div>
+                        <p class="company-invest__about">И еще более 10 000 других ценных бумаг доступно <a href="#"
+                                class="company-invest__link">в каталоге</a></p>
+                        <a href="#" class="button company-invest__button">Получить каталог</a>
+                    </div>
+                </div>
+            </section>
+
+            <div class="secton__instrument">
+                <div class="container">
+                    <h2 class="title title__instrument">
+                        Большой выбор инструментов
+                    </h2>
+
+                    <div class="instrument__inner">
+
+                        <div class="instrument__link-item">
+                            <a href="#" class="instrumen__link-suport">
+                                <img src="./img/section__instrument/suport.png" alt="" class="link-img--support">
+                                support
+                            </a>
+
+                        </div>
+                        <div class="instument__card">
+                            <div class="instrument__card-img">
+                                <img src="./img/section__instrument/forex.png" alt="">
+                            </div>
+
+                            <h4 class="instrument__card-title">
+                                Форекс
+                            </h4>
+                            <p class="instrument__card-text">Торгуйте 70 основными, второстепенными и экзотическими
+                                валютными парами с конкурентными торговыми условиями.</p>
+                        </div>
+                        <div class="instument__card">
+                            <div class="instrument__card-img">
+                                <img src="./img/section__instrument/metal.png" alt="">
+                            </div>
+
+                            <h4 class="instrument__card-title">
+                                Металлы
+                            </h4>
+                            <p class="instrument__card-text">Торгуйте металлическими товарами, такими как золото,
+                                серебро и платина.</p>
+                        </div>
+                        <div class="instument__card">
+                            <div class="instrument__card-img">
+                                <img src="./img/section__instrument/index.png" alt="">
+                            </div>
+
+                            <h4 class="instrument__card-title">
+                                Индексы
+                            </h4>
+                            <p class="instrument__card-text">Торгуйте спотовыми и фьючерсными CFD на основные и
+                                второстепенные индексы со всего мира.</p>
+                        </div>
+                        <div class="instument__card">
+                            <div class="instrument__card-img">
+                                <img src="./img/section__instrument/crypta.png" alt="">
+                            </div>
+
+                            <h4 class="instrument__card-title">
+                                Криптовалюты
+                            </h4>
+                            <p class="instrument__card-text">Торгуйте CFD на Биткойн, Эфир, Доджкоин и другие
+                                криптовалюты и альткойны.</p>
+                        </div>
+                        <div class="instument__card">
+                            <div class="instrument__card-img">
+                                <img src="./img/section__instrument/share.png" alt="">
+                            </div>
+
+                            <h4 class="instrument__card-title">
+                                Акции
+                            </h4>
+                            <p class="instrument__card-text">Сотни публичных компаний из США, Великобритании, Франции и
+                                Германии доступны для торговли.</p>
+                        </div>
+                        <div class="instument__card">
+                            <div class="instrument__card-img">
+                                <img src="./img/section__instrument/energies.png" alt="">
+                            </div>
+
+                            <h4 class="instrument__card-title">
+                                Энергоресурсы
+                            </h4>
+                            <p class="instrument__card-text">Откройте возможности торговли на нефти (британской и
+                                американской) и природном газе — спотовыми и фьючерсными CFD.</p>
+                        </div>
+
+
+                        <div class="arrow__link-item">
+                            <a href="#" class="link-arrow">
+                                <img src="./img/section__instrument/arrow.svg" alt="" class="arrow_link-img">
+                            </a>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+            <section class="invest__all">
+                <div class="container">
+                    <h2 class="title invest__all-title">Инвестиции доступные каждому</h2>
+                    <p class="invest__all-text">Простой сервис с подсказками и поддержкой 24/7 на каждом этапе</p>
+                    <div class="invest__all-inner">
+                        <div class="invest__all-card">
+                            <p class="invest__all-card-step">ШАГ 1</p>
+                            <h4 class="invest__all-card-title">Заполнить регистрационную анкету</h4>
+                            <p class="invest__all-card-subtitle">Нужно указать основные данные о себе: имя, номер
+                                телефона, e-mail и пароль для входа.</p>
+                        </div>
+                        <div class="invest__all-card">
+                            <p class="invest__all-card-step">ШАГ 2</p>
+                            <h4 class="invest__all-card-title">Внести деньги <br> на счет</h4>
+                            <p class="invest__all-card-subtitle">Вы можете использовать несколько платежных систем для
+                                пополнения депозита, включая систему MidexPay и кошелек Bitcoin.</p>
+                        </div>
+                        <div class="invest__all-card">
+                            <p class="invest__all-card-step">ШАГ 3</p>
+                            <h4 class="invest__all-card-title">Приступить <br> к онлайн-трейдингу</h4>
+                            <p class="invest__all-card-subtitle">Сразу после пополнения депозита торговля через
+                                веб-терминал или мобильную платформу будет доступна.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <section class="chance">
+                <div class="container">
+                    <div class="chance__inner">
+                        <h2 class="title title__chance">
+                            Каждый достоин второго шанса
+                        </h2>
+                        <p class="chance__subtitle">Купите свои первые акции без риска, мы вернем вам 100$ на счет в
+                            случае
+                            проигрыша</p>
+                        <div class="button__inner">
+                            <a href="#" class="button chance__button">Получить бонус</a>
+                            <a href="#" class="button_two chance__batton-two">Открыть демо-счёт</a>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="rightleft__inner">
+                    <img src="./img/chance/left.png" alt="" class="leftgift__change">
+                    <img src="./img/chance/right.png" alt="" class="rightgift__chance">
+                </div>
+
+            </section>
+            
+            <section class="company__info">
+                <div class="container">
+                    <h2 class="title company__title">
+                        100 000+ клиентов уже инвестируют с нами
+                    </h2>
+                    <div class="company__info-inner">
+                        <div class="company__info-card">
+
+                            <img src="./img/company__info/foto1.svg" alt="" class="company__info-img">
+                            <h4 class="company__info-card-title">Представительство компании в Европе</h4>
+                            <p class="company__info-card-text">В разных странах мира компания открывает собсвенные
+                                представительства.</p>
+                            <div class="company__info-card-item">
+                                <a href="" class="company__info-card-link">Подробнее </a>
+                            </div>
+
+
+
+                        </div>
+                        <div class="company__info-card">
+
+                            <img src="./img/company__info/foto2.svg" alt="" class="company__info-img">
+                            <h4 class="company__info-card-title">Мгновенный ввод и вывод средств</h4>
+                            <p class="company__info-card-text">0% комиссия с депозита</p>
+                            <div class="company__info-card-item">
+                                <a href="" class="company__info-card-link">Подробнее</a>
+                            </div>
+
+
+
+                        </div>
+                        <div class="company__info-card">
+
+                            <img src="./img/company__info/foto3.svg" alt="" class="company__info-img">
+                            <h4 class="company__info-card-title">Кредитное плечо до 1:1000</h4>
+                            <p class="company__info-card-text">и на оборот</p>
+                            <div class="company__info-card-item">
+                                <a href="" class="company__info-card-link">Подробнее</a>
+                            </div>
+
+
+
+                        </div>
+                        <div class="company__info-card">
+
+                            <img src="./img/company__info/foto4.svg" alt="" class="company__info-img">
+                            <h4 class="company__info-card-title">Время выполнения заказа - 30 мс</h4>
+                            <p class="company__info-card-text">Средний показатель по отрасли - 500 мс</p>
+                            <div class="company__info-card-item">
+                                <a href="" class="company__info-card-link">Подробнее</a>
+                            </div>
+
+
+
+                        </div>
+                        <div class="company__info-card">
+
+                            <img src="./img/company__info/foto5.svg" alt="" class="company__info-img">
+                            <h4 class="company__info-card-title">250 торговых инструментов</h4>
+                            <p class="company__info-card-text">Валютные пары, акции, металлы, индексы, облигации</p>
+                            <div class="company__info-card-item">
+                                <a href="" class="company__info-card-link">Подробнее</a>
+                            </div>
+
+
+
+                        </div>
+                        <div class="company__info-card">
+
+                            <img src="./img/company__info/foto6.svg" alt="" class="company__info-img">
+                            <h4 class="company__info-card-title">Счета в евро, рублях, долларах США</h4>
+                            <p class="company__info-card-text">Пополните свой счет и сэкономьте на сборах за
+                                конвертацию
+                            </p>
+                            <div class="company__info-card-item">
+                                <a href="" class="company__info-card-link">Подробнее</a>
+                            </div>
+
+
+
+                        </div>
+                        <div class="company__info-card">
+
+                            <img src="./img/company__info/foto7.svg" alt="" class="company__info-img">
+                            <h4 class="company__info-card-title">15% бонус на первый депозит</h4>
+                            <p class="company__info-card-text">Может использоваться в торговле и во время просадки
+                            </p>
+                            <div class="company__info-card-item">
+                                <a href="" class="company__info-card-link">Подробнее</a>
+                            </div>
+                        </div>
+
+
+
+                        <div class="company__info-card">
+
+                            <img src="./img/company__info/foto8.svg" alt="" class="company__info-img">
+                            <h4 class="company__info-card-title">Инновационная торговая платформа МТ5</h4>
+                            <p class="company__info-card-text">Доступно на IOS и Android</p>
+                            <div class="company__info-card-item">
+                                <a href="" class="company__info-card-link">Подробнее</a>
+                            </div>
+                        </div>
+
+
+
+                    </div>
+
+
+
+                </div>
+            </section>
+            
+            <section class="case__investition">
+                <div class="container">
+                    <div class="case__inner">
+                        <div class="case__progressBar">
+                            <div class="gauge">
+
+                                <svg width="690" height="345">
+
+                                    <path class="background" d="M20 345 A325 325 0 0 1 670 345" />
+
+                                    <path class="progress" d="M20 345 A325 325 0 0 1 670 345" />
+                                </svg>
+                                <div class="percent__title">Доходность</div>
+
+
+                                <div class="percent" id="percent">до 0%</div>
+
+                                <div class="risk" id="risk">Низкий риск</div>
+                            </div>
+
+
+                            <div class="slider">
+                                <input type="range" id="range" min="0" max="100" value="0" />
+                            </div>
+
+
+                            <div class="mode">
+
+                                <label class="radio">
+                                    <input type="radio" name="mode" id="self" checked />
+                                    <span class="custom-radio"></span>
+                                    <span class="label">Управляю деньгами сам</span>
+                                </label>
+
+
+                                <label class="radio radio-2">
+                                    <input type="radio" name="mode" id="trust" />
+                                    <span class="custom-radio"></span>
+                                    <span class="label">Доверяю управление</span>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="case__main">
+                            <h2 class="title case__title">Подберите индивидуальный инвестиционный портфель</h2>
+                            <p class="case__text">Покупайте российские и иностранные акции, облигации, валюту и другие
+                                продукты в простом и удобном мобильном приложении для iOS и Android</p>
+                            <a href="" class="button case__button">Получить портфель</a>
+                        </div>
+                    </div>
+                    <div class="case__items">
+                        <div class="case__item">
+                            <p class="text1">60 000</p>
+                            <p class="text2">Активных инвесторов</p>
+                        </div>
+                        <div class="case__item">
+                            <p class="text1">150+</p>
+                            <p class="text2">Торговых инструментов</p>
+                        </div>
+                        <div class="case__item">
+                            <p class="text1">183 000 USD</p>
+                            <p class="text2">Финансовый результат одного из инвесторов</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <section class="invest_from-phone">
+                <div class="container">
+                    <div class="invest__from-phone-inner">
+                        <div class="invest__from-phone-item">
+                            <h2 class="title title__invest-from-phone">Инвестируйте с телефона</h2>
+                            <p class="text__invest-from-phone">Покупайте российские и иностранные акции, облигации,
+                                валюту и другие продукты в простом и удобном мобильном приложении для iOS и Android.</p>
+                        </div>
+                        <img src="./img/invest__from-phone/foto1.png" alt="" class="invest-from-phone-img">
+                    </div>
+                </div>
+            </section>
+            
+            <section class="invest__app">
+                <div class="container">
+                    <div class="invest__app-inner">
+                        <div class="invest__app-item">
+                            <img src="./img/invest__app/foto1.png" alt="" class="invest__app-img">
+                        </div>
+                        <div class="invest__app-main">
+                            <h2 class="title invest__app-title">Инвестируйте с телефона</h2>
+                            <p class="invest__app-text">Покупайте российские и иностранные акции, облигации, валюту и
+                                другие продукты в простом и удобном мобильном приложении для iOS и Android.</p>
+
+                            <div class="invest__app-buttons">
+                                <a href="#" class="invest__app-button">
+                                    <img src="./img/invest__app/ios.svg" alt="" class="invest__app-button-img">Скачать
+                                    для IOS
+                                </a>
+                                <a href="#" class="invest__app-button">
+                                    <img src="./img/invest__app/android.svg" alt=""
+                                        class="invest__app-button-img">Скачать для Android
+                                </a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <section class="questions">
+                <div class="container">
+                    <div class="questions__inner">
+                        <div class="questions__item">
+                            <div class="questions__text">
+                                <h2 class="title questions__title">Мне только спросить</h2>
+                                <p class="questions__subtitile">Собрали в подсказках ответы на популярные вопросы об
+                                    инвестициях и сервисе</p>
+                            </div>
+                            <a href="" class="button questions__button">Получить консультацию</a>
+                        </div>
+                        <div id="accordion" class="accordion">
+
+                            <div class="accordion__item">
+                                <div class="accordion__header">
+                                    <div class="style__img-accord">
+                                        <img src="./img/accordion/question.svg" alt="иконка вопроса"
+                                            class="accordion__icon">
+                                    </div>
+
+                                    <p class="accordion__text">Есть ли плата за обслуживание?</p>
+                                </div>
+                                <div class="accordion__body">
+                                    <div class="accordion__content">
+                                        Обслуживание счёта бесплатное — вы платите только за реальные операции, такие
+                                        как покупка или продажа активов.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion__item">
+                                <div class="accordion__header">
+                                    <div class="style__img-accord">
+                                        <img src="./img/accordion/question.svg" alt="иконка вопроса"
+                                            class="accordion__icon">
+                                    </div>
+
+                                    <p class="accordion__text">Как вывести деньги со счёта?</p>
+                                </div>
+                                <div class="accordion__body">
+                                    <div class="accordion__content">
+                                        Выводите средства удобно и быстро — напрямую на карту или банковский счёт всего
+                                        в пару кликов.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion__item">
+                                <div class="accordion__header">
+                                    <div class="style__img-accord">
+                                        <img src="./img/accordion/question.svg" alt="иконка вопроса"
+                                            class="accordion__icon">
+                                    </div>
+
+                                    <p class="accordion__text">Какие налоги?</p>
+                                </div>
+                                <div class="accordion__body">
+                                    <div class="accordion__content">
+                                        Мы берём на себя расчёт и оплату налогов — вы просто инвестируете и получаете
+                                        прибыль без лишней бюрократии.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion__item">
+                                <div class="accordion__header">
+                                    <div class="style__img-accord">
+                                        <img src="./img/accordion/question.svg" alt="иконка вопроса"
+                                            class="accordion__icon">
+                                    </div>
+
+                                    <p class="accordion__text">Где хранятся деньги?</p>
+                                </div>
+                                <div class="accordion__body">
+                                    <div class="accordion__content">
+                                        Деньги хранятся в надёжных финансовых организациях с государственной лицензией.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion__item">
+                                <div class="accordion__header">
+                                    <div class="style__img-accord">
+                                        <img src="./img/accordion/question.svg" alt="иконка вопроса"
+                                            class="accordion__icon">
+                                    </div>
+
+                                    <p class="accordion__text">Как открыть счёт?</p>
+                                </div>
+                                <div class="accordion__body">
+                                    <div class="accordion__content">
+                                        Всего пару минут — и счёт открыт. Без визитов в офис и бумажной волокиты, всё
+                                        прямо в приложении.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="accordion__item">
+                                <div class="accordion__header">
+                                    <div class="style__img-accord">
+                                        <img src="./img/accordion/question.svg" alt="иконка вопроса"
+                                            class="accordion__icon">
+                                    </div>
+                                    <p class="accordion__text">Как пополнить счёт?</p>
+                                </div>
+                                <div class="accordion__body">
+                                    <div class="accordion__content">
+                                        Пополните счёт за пару секунд — картой или переводом. Средства сразу доступны
+                                        для инвестиций.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="accordion__item">
+                                <div class="accordion__header">
+                                    <div class="style__img-accord">
+                                        <img src="./img/accordion/question.svg" alt="иконка вопроса"
+                                            class="accordion__icon">
+                                    </div>
+                                    <p class="accordion__text">Что купить?</p>
+                                </div>
+                                <div class="accordion__body">
+                                    <div class="accordion__content">
+                                        Вы можете выбрать акции, облигации, фонды или готовые инвестиционные портфели —
+                                        всё зависит от ваших целей и уровня риска.
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+        
+            <section class="form">
+                <div class="container">
+                    <h2 class="title form__title">
+                        Оставьте заявку на открытие счёта
+                    </h2>
+                    <div class="form__inner">
+                        <div class="form__item">
+                            <div class="form__item-links1 form__item-links">
+                                <a href="#" class="form__item-link">
+                                    <svg width="44" height="44" viewBox="0 0 44 44" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                        <mask id="mask0_113_346" style="mask-type:alpha" maskUnits="userSpaceOnUse"
+                                            x="0" y="0" width="44" height="44">
+                                            <rect width="44" height="44" fill="url(#pattern0_113_346)" />
+                                        </mask>
+                                        <g mask="url(#mask0_113_346)">
+                                            <rect x="-1" y="-5" width="59" height="61" fill="black" />
+                                        </g>
+                                        <defs>
+                                            <pattern id="pattern0_113_346" patternContentUnits="objectBoundingBox"
+                                                width="1" height="1">
+                                                <use xlink:href="#image0_113_346" transform="scale(0.00195312)" />
+                                            </pattern>
+                                            <image id="image0_113_346" width="512" height="512"
+                                                preserveAspectRatio="none"
+                                                xlink:href="data:image/png;base64,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" />
+                                        </defs>
+                                    </svg>
+
+                                </a>
+                            </div>
+
+                            <h4 class="form__item-title">
+                                Заполните заявку онлайн
+                            </h4>
+                            <p class="form__text">
+                                Необходимо: имя, номер телефона, e-mail и пароль для входа.
+                            </p>
+                        </div>
+
+                        <div class="form__item">
+                            <div class="form__item-links2 form__item-links">
+                                <a href="#" class="form__item-link">
+                                    <svg width="48" height="48" viewBox="0 0 48 48" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                        <mask id="mask0_113_295" style="mask-type:alpha" maskUnits="userSpaceOnUse"
+                                            x="0" y="0" width="48" height="48">
+                                            <rect width="48" height="48" fill="url(#pattern0_113_295)" />
+                                        </mask>
+                                        <g mask="url(#mask0_113_295)">
+                                            <rect x="-3" y="-1" width="57" height="61" fill="black" />
+                                        </g>
+                                        <defs>
+                                            <pattern id="pattern0_113_295" patternContentUnits="objectBoundingBox"
+                                                width="1" height="1">
+                                                <use xlink:href="#image0_113_295" transform="scale(0.00195312)" />
+                                            </pattern>
+                                            <image id="image0_113_295" width="512" height="512"
+                                                preserveAspectRatio="none"
+                                                xlink:href="data:image/png;base64,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" />
+                                        </defs>
+                                    </svg>
+
+                                </a>
+                            </div>
+
+                            <h4 class="form__item-title">
+                                Откроем счет за 5 минут
+                            </h4>
+                            <p class="form__text">
+                                Вы можете использовать несколько платежных систем для пополнения депозита, включая
+                                систему MidexPay и кошелек Bitcoin.
+                            </p>
+                        </div>
+
+                        <div class="form__item">
+                            <div class="form__item-links3 form__item-links">
+                                <a href="#" class="form__item-link">
+                                    <svg width="40" height="40" viewBox="0 0 40 40" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                        <mask id="mask0_113_299" style="mask-type:alpha" maskUnits="userSpaceOnUse"
+                                            x="0" y="0" width="40" height="40">
+                                            <rect width="40" height="40" fill="url(#pattern0_113_299)" />
+                                        </mask>
+                                        <g mask="url(#mask0_113_299)">
+                                            <rect x="-12.2222" y="-5.55566" width="63.3333" height="67.7778"
+                                                fill="black" />
+                                        </g>
+                                        <defs>
+                                            <pattern id="pattern0_113_299" patternContentUnits="objectBoundingBox"
+                                                width="1" height="1">
+                                                <use xlink:href="#image0_113_299" transform="scale(0.00195312)" />
+                                            </pattern>
+                                            <image id="image0_113_299" width="512" height="512"
+                                                preserveAspectRatio="none"
+                                                xlink:href="data:image/png;base64,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" />
+                                        </defs>
+                                    </svg>
+
+                                </a>
+                            </div>
+                            <h4 class="form__item-title">
+                                Пополните счёт и начните инвестировать
+                            </h4>
+                            <p class="form__text">
+                                Сразу после пополнения депозита будет доступна торговля через веб-терминал или
+                                мобильную
+                                платформу.
+                            </p>
+
+
+                        </div>
+
+
+                    </div>
+                    <form class="form__contact">
+                        <label class="form__contact-lable">
+                            <input type="text" class="form__contact-input" placeholder="Ваше имя:">
+
+                        </label>
+                        <label class="form__contact-lable">
+                            <input type="tel" class="form__contact-input" placeholder="+7 --- --- -- -- ">
+
+                        </label>
+                        <label class="form__contact-lable">
+                            <input type="email" class="form__contact-input" placeholder="Email:">
+
+                        </label>
+                        <button type="submit" class="button button__form">Оставить заявку</button>
+                    </form>
+
+                </div>
+
+    </div>
+    </div>
+    </section>
+    
+
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__inner">
+                <div class="footer__main">
+                    <a href="#" class="footer__logo">
+                        <img src="./img/header/logo.png" alt="" class="footer__logo-img">
+                    </a>
+                    <ul class="footel__social">
+                        <li class="footel__social-item">
+                            <a href="" class="footel__social-link">
+                                <img src="./img/footer__social/inst.svg" alt="" class="footel__social-img">
+                            </a>
+                        </li>
+                        <li class="footel__social-item">
+                            <a href="" class="footel__social-link">
+                                <img src="./img/footer__social/facebook.svg" alt="" class="footel__social-img">
+                            </a>
+                        </li>
+                        <li class="footel__social-item">
+                            <a href="" class="footel__social-link">
+                                <img src="./img/footer__social/vk.svg" alt="" class="footel__social-img">
+                            </a>
+                        </li>
+                        <li class="footel__social-item">
+                            <a href="" class="footel__social-link">
+                                <img src="./img/footer__social/yt.svg" alt="" class="footel__social-img">
+                            </a>
+                        </li>
+                    </ul>
+                    <a href="#" class="politic__web">Политика передачи данных</a>
+                </div>
+                <div class="footel__call">
+                    <p class="call__text">Звонок по России бесплатный</p>
+                    <a href="tel:84952121671" class="call__number">8 (495) 212-16-71</a>
+                    <a href="" class="button call__button">Перезвоните мне</a>
+                </div>
+            </div>
+        </div>
+
+    </footer> 
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+    <script src="./js/inputmask.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
